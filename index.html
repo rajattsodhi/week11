@@ -9,12 +9,15 @@
   </style>
 </head>
 <body>
-  <h1>Hello <span id="my-name"></span>!</h1>
+  <h1>Hello <span id="my-name"></span> <span id="my-surname"></span>!</h1>
 
   <form id="get-name" action="#" method="post">
     <label for="user-name">Enter name:</label>
     <input type="text" id="user-name" placeholder="Your name?">
+    <label for="surname">Enter surname:</label>
+    <input type="text" id="surname" placeholder="Your surname?">  
     <input type="submit">
+    <input type="button" id="clear-storage" value="clear-storage">
   </form>
 
   <script src="js/localstore.js"></script>
